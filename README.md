@@ -14,7 +14,7 @@ Follow these steps to set up a project template with Vite, Vue, and Storybook:
 
 ### Prerequisites
 
-Make sure you have the following tools installed on your machine:
+Make sure you have the following tools installed:
 - Node.js (v14 or later)
 - npm (Node Package Manager) or Yarn
 

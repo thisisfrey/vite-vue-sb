@@ -1,15 +1,16 @@
 <script setup>
 import { ref } from "vue";
 
-defineProps({
-  msg: String,
+const props = defineProps({
+  msg: { type: String, required: false, default: "Hello world!" },
+  color: { type: String, required: false, default: "black" },
 });
 
 const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 :style="{ color: `${props.color}` }">{{ msg }}</h1>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>

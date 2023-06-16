@@ -35,6 +35,7 @@ export const SecondStory = {
   }),
   args: {
     msg: "This is a story",
+    color: "red",
   },
 };
 
